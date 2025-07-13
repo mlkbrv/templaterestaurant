@@ -1,0 +1,266 @@
+[
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 1,
+    "fields": {
+      "category_name": "Breakfast"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 2,
+    "fields": {
+      "category_name": "Crepe/Pancake/Waffle"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 3,
+    "fields": {
+      "category_name": "Pasta & Risotto"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 4,
+    "fields": {
+      "category_name": "Main Course"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 5,
+    "fields": {
+      "category_name": "Pizza"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 6,
+    "fields": {
+      "category_name": "Soups"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 7,
+    "fields": {
+      "category_name": "Salads"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 8,
+    "fields": {
+      "category_name": "Snacks"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 9,
+    "fields": {
+      "category_name": "Burgers"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 10,
+    "fields": {
+      "category_name": "Sandwiches & Rolls"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 11,
+    "fields": {
+      "category_name": "Bowls"
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 12,
+    "fields": {
+      "category_name": "Drinks"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 1,
+    "fields": {
+      "food_name": "French toast",
+      "description": "It is usually made by soaking stale bread in milk or wine with honey and spices. It is dipped in beaten egg and fried with olive oil. This cooking technique breaks down the fibres of the bread and results in a pastry with a crispy outside and smooth inside. It is often sprinkled with cinnamon as a final touch.",
+      "price": 13.0,
+      "quantity": 10,
+      "category": 1,
+      "image": "7016-french-toast-i-ddmfs-beauty-4x3-b77fcd549a18443da3cf488687eae64f.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 2,
+    "fields": {
+      "food_name": "Yogurt Chia",
+      "description": "Chia seeds are an excellent source of fiber, which can improve heart health, reduce cholesterol levels and promote intestinal health. Fiber takes longer to digest and makes you feel satisfied longer, which is how it can help with weight loss and decrease your risk of developing diabetes or heart disease.",
+      "price": 13.5,
+      "quantity": 15,
+      "category": 1,
+      "image": "Chia-Pudding-recipe-with-yogurt.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 3,
+    "fields": {
+      "food_name": "Omelette",
+      "description": "An omelette is a dish made from eggs, fried with butter or oil in a frying pan. It is a common practice for an omelette to include fillings such as chives, vegetables, mushrooms, meat, cheese, onions or some combination of the above.",
+      "price": 8.0,
+      "quantity": 20,
+      "category": 1,
+      "image": "1200px-FoodOmelete.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 4,
+    "fields": {
+      "food_name": "Crepes with vanilla cream",
+      "description": "In a large bowl, mix together the milk, egg yolks and vanilla. Stir in the flour, sugar, salt and melted butter until well blended.",
+      "price": 9.5,
+      "quantity": 12,
+      "category": 2,
+      "image": "Crepes-with-strawberries-and-vanilla-pastry-cream.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 5,
+    "fields": {
+      "food_name": "Pancake",
+      "description": "A pancake, also known as a hotcake, griddlecake, or flapjack, is a flat type of batter bread like cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk, and butter, and then cooked on a hot surface such as a griddle or frying pan. Archaeological evidence suggests that pancakes were probably eaten in prehistoric societies",
+      "price": 9.0,
+      "quantity": 15,
+      "category": 2,
+      "image": "21014-Good-old-Fashioned-Pancakes-mfs_002-0e249c95678f446291ebc9408ae64c05.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 6,
+    "fields": {
+      "food_name": "Pasta",
+      "description": "Lemony Humus Pasta",
+      "price": 17.0,
+      "quantity": 18,
+      "category": 3,
+      "image": "CR-Lemony-Hummus-Pasta-wtkj-threeByTwoMediumAt2X.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 7,
+    "fields": {
+      "food_name": "Salmon steak",
+      "description": "Salmon steak is a delicious cut of salmon that includes the bone and surrounding skin. It is known for its rich flavor and tender texture. The steak is usually about an inch thick, and you can grill, bake, or pan-sear this cut.",
+      "price": 29.0,
+      "quantity": 8,
+      "category": 4,
+      "image": "images.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 8,
+    "fields": {
+      "food_name": "Pepperoni",
+      "description": "Pepperoni is an American variety of spicy salami made from cured pork and beef seasoned with paprika and chili peppers. Before cooking, pepperoni is characteristically soft, slightly smoky, and bright red. Sliced pepperoni is one of the most popular pizza toppings in American pizzerias.",
+      "price": 18.5,
+      "quantity": 10,
+      "category": 5,
+      "image": "Pepperoni_Pizza_29204589095.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 9,
+    "fields": {
+      "food_name": "Tomato soup",
+      "description": "Tomato soup is a soup with tomatoes as the primary ingredient. It can be served hot or cold, and may be made in a variety Of ways. It may be smooth in texture, and there are also recipes that include chunks of tomato, cream, chicken or vegetable stock, vermicelli, chunks of other vegetables and meatballs.",
+      "price": 8.0,
+      "quantity": 25,
+      "category": 6,
+      "image": "images_1.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 10,
+    "fields": {
+      "food_name": "Zinger Salad",
+      "description": "Fresh salad with zinger chicken, lettuce, tomatoes, cucumbers and special sauce",
+      "price": 16.0,
+      "quantity": 15,
+      "category": 7,
+      "image": "download.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 11,
+    "fields": {
+      "food_name": "Pastrami Bruschetta",
+      "description": "This is just the perfect appetizer to start off a meal. Whenever I'm in doubt what to start my supper with, I always go back to this recipe since it's so good and everyone likes it!",
+      "price": 15.0,
+      "quantity": 12,
+      "category": 8,
+      "image": "download_1.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 12,
+    "fields": {
+      "food_name": "Cheeseburger",
+      "description": "A cheeseburger is a hamburger with one or more slices of melted cheese on top of the meat patty, added near the end Of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition.",
+      "price": 18.0,
+      "quantity": 20,
+      "category": 9,
+      "image": "download_2.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 13,
+    "fields": {
+      "food_name": "Club Sandwich",
+      "description": "A club sandwich or clubhouse sandwich, is a three-layer sandwich consisting Of three slices Of bread, sliced cooked poultry, fried bacon, lettuce, tomato, and mayonnaise. It is often cut diagonally into quarters or halves and held together by cocktail sticks.",
+      "price": 15.0,
+      "quantity": 15,
+      "category": 10,
+      "image": "download_3.jpeg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 14,
+    "fields": {
+      "food_name": "Steak Bowl",
+      "description": "With juicy steak, fluffy cilantro lime rice, arugula, and corn avocado salsa, these steak bowls are an easy, flavorful meal that satisfies!",
+      "price": 27.5,
+      "quantity": 10,
+      "category": 11,
+      "image": "Steak-Rice-BowlsKey.jpg"
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 15,
+    "fields": {
+      "food_name": "CocaCola",
+      "description": "Classic Coca-Cola soft drink",
+      "price": 3.0,
+      "quantity": 50,
+      "category": 12,
+      "image": "Coca_Cola_Flasche_-_Original_Taste.jpg"
+    }
+  }
+]
