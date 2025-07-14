@@ -63,7 +63,6 @@ def remove_item(request, basket_id):
 
 def clear_cart(request):
     if request.method == 'POST':
-        if 'cart' in request.session:
-            del request.session['cart']
-        return redirect('restaurant:index')
+        if 'selected_table_id' in request.session:
+            del request.session['selected_table_id']
     return redirect('restaurant:index')
